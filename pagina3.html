@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="pagina3.css">
+    <link rel="icon" type="image/png" href="Img/foto logo Facchini.jpg">
+    <title>Facchini TDS</title>
+</head>
+<body>
+    <header>
+        <div class="img_logo_facchini"> <!--div criada para inserir o logo da Facchini-->
+            <img src="Img/foto logo Facchini.jpg" alt="Logo Facchini" width="300px">
+        </div>    
+    </header>
+    <hr>
+    
+    <div>
+        <a href="index.html" alt="Pagina inicial Facchini">-->Página Inicial</a> <!--botão para a página inicial-->
+    </div>
+    <main>
+         <h3>CONTATO</h3>
+         <section class="alinhamento"> <!--sessão criada para o formulário-->
+            <form action="/Facchini/pagina de contato" method="post">
+                <div> <!--divisórias criadas para armazernar os dados dos clientes-->
+                    <label for="nome">Nome:</label>
+                    <input type="text" id="nome"/>
+                </div>
+                <div>
+                    <label for="email">E-mail:</label>
+                    <input type="text" id="email"/>
+                </div>
+                <div>
+                    <label for="telefone">Telefone:</label>
+                    <input type="text" id="telefone"/>
+                </div>
+                <div>
+                    <label for="cidade">Cidade:</label>
+                    <input type="text" id="cidade"/>
+                </div>
+                <div>
+                    <label for="estado">Estado:</label>
+                    <input type="text" id="estado"/>
+                </div>
+                <div>
+                    <label for="mensagem">Mensagem:</label>
+                    <textarea id="mensagem"></textarea>
+                </div>
+                <div class="button">
+                    <button type="submit">Enviar sua mensagem</button>
+                </div>
+            </form>
+         </section>
+         <section class="centralizar"> <!--sessão criada para o telefone da Facchini-->
+            <h3>Telefone:</h3>
+            <h3 class="centralizar_numero"><br>17 3426.2000</h3>
+         </section>
+         <hr class="divisor">
+    </main>
+    <footer>
+        <p class="divisor_footer">Linguagem de marcação - TDS - 2023</p> <!--classe criada para deixar o texto do rodapé um pouco mais embaixo-->
+    </footer>
+</body>
+</html>

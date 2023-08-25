@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital@1&display=swap');
+
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+header{
+    background-color: red;
+}
+
+.img_logo_facchini{
+    display: flex;
+    justify-content: center;
+}
+
+hr{
+    border: 1px solid black;
+    margin: 0 0 0 0;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    background-color: red; 
+    border: 2px solid black;
+    padding: 6px 4px;
+    border-radius: 6px;
+}
+
+.img_furgao{
+    display: flex;
+    justify-content: center;
+}
+
+p{
+    color: black;
+    display: flex;
+    justify-content: center;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+h3{
+    display: flex;
+    justify-content: center;
+    padding: 15px 0 15px 0;
+}
+
+.descricao_produto{
+    display: flex;
+    justify-content: center;
+}
+
+th,td{
+    padding: 10px;
+}
+
+.img_carroceria{
+    display: flex;
+    justify-content: center;
+}
+
+.divisor{
+    margin: 20px 0 0 0;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    display: table;
+    margin: 10px 10px 10px 10px;
+}
+
+footer {
+    background-color: red;
+    padding: 10px 10px 100px 10px;
+}
+
+.divisor_footer{
+    margin-top: 70px;
+    color: white;
+}
