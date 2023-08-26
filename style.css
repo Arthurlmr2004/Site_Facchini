@@ -20,12 +20,18 @@ hr{
 }
 
 a{
+    display: table;
     text-decoration: none;
     color: black;
     background-color: red; 
     border: 2px solid black;
     padding: 6px 4px;
     border-radius: 6px;
+    margin: 10px 10px 10px 10px;
+}
+
+a:hover{
+    background-color:white;
 }
 
 .img_furgao{
@@ -62,13 +68,6 @@ th,td{
 
 .divisor{
     margin: 20px 0 0 0;
-}
-
-a{
-    text-decoration: none;
-    color: black;
-    display: table;
-    margin: 10px 10px 10px 10px;
 }
 
 footer {
