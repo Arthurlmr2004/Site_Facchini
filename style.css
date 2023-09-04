@@ -23,7 +23,7 @@ a{
     display: table;
     text-decoration: none;
     color: black;
-    background-color: red; 
+    background-color: red;
     border: 2px solid black;
     padding: 6px 4px;
     border-radius: 6px;
@@ -31,7 +31,7 @@ a{
 }
 
 a:hover{
-    background-color:white;
+    background-color: red;
 }
 
 .img_furgao{
